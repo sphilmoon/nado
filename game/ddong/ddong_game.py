@@ -32,7 +32,7 @@ ddong_width = ddong_size[0] # width is always 0
 ddong_height = ddong_size[1] # height is always 1
 ddong_x_pos = 0
 ddong_y_pos = 0
-ddong_speed = 0.1
+ddong_speed = 0.2
 
 to_x = 0
 
