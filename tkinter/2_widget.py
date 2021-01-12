@@ -10,7 +10,7 @@ root.resizable(False, False) # x, y resizable is disabled.
 
 # widget
 btn1 = Button(root, text = "button1")
-btn1.pack()
+btn1.pack() # to activate.
 
 btn2 = Button(root, padx = 5, pady = 10, text = "button2")
 btn2.pack()
@@ -28,7 +28,7 @@ photo = PhotoImage(file = "/Users/phil/Documents/Python/nado/tkinter/images/btn_
 btn6 = Button(root, image = photo)
 btn6.pack()
 
-def btncmd():
+def btncmd(): # print this string in terminal to receive user command.
 	print("The botton is clicked.")
 
 # printable button.

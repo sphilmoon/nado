@@ -14,7 +14,6 @@ label1 = Label(root, text = "Please select the followings")
 label1.pack()
 
 # inserting image to the label.
-photo = images.load(image_path, "btn_black.png")
 photo = PhotoImage(file = "/Users/phil/Documents/Python/nado/tkinter/images/btn_black.png")
 label2 = Label(root, image = photo)
 label2.pack()
